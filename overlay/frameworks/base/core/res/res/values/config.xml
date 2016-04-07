@@ -321,4 +321,7 @@
     <!-- Bool whether to show notification slider in Universe -->
     <bool name="config_showNotificationSlider">false</bool>
 
+    <!-- Bool whether to show Gestures in Universe -->
+    <bool name="config_showMotoDozeGestures">true</bool>
+
 </resources>
