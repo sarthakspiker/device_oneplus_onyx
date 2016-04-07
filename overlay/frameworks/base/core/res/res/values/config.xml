@@ -196,10 +196,10 @@
 
     <!-- Enable the option to check proximity sensor when deciding whether to
          turn the screen on
-         NOTE ! - Enable for devices that have a fast response proximity sensor -->
+         NOTE ! - Enable for devices that have a fast response proximity sensor 
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">100</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>-->
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
@@ -315,7 +315,10 @@
     <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|LTE|HSPAP|GSM|TD_SCDMA|WCDMA|LTE_CA</string>
 
   <!-- Control path for disabling the capacitive hardware keys, if they exist.
-         For example: "/proc/touchpanel/keypad_enable"  -->
-    <string name="config_deviceHardwareKeysFilePath" translatable="false">/proc/touchpanel/keypad_enable</string>
+         For example: "/proc/touchpanel/keypad_enable"  
+    <string name="config_deviceHardwareKeysFilePath" translatable="false">/proc/touchpanel/keypad_enable</string>-->
+
+    <!-- Bool whether to show notification slider in Universe -->
+    <bool name="config_showNotificationSlider">false</bool>
 
 </resources>
