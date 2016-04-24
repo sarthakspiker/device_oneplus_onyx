@@ -29,3 +29,7 @@
 /system/bin/thermal-engine                              u:object_r:thermal-engine_exec:s0
 
 /data/oemnvitems(/.*)?                                  u:object_r:nv_data_file:s0
+
+/init\.qcom\.bt\.sh                                     u:object_r:bluetooth_loader_exec:s0
+
+/dev/smd7                                               u:object_r:hci_attach_dev:s0
