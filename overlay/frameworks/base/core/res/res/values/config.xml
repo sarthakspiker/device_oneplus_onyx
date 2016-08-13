@@ -346,6 +346,5 @@
     <bool name="config_showNotificationSlider">false</bool>
 
     <!-- Bool whether to show Gestures in Universe -->
-    <bool name="config_showMotoDozeGestures">true</bool>
-
+    <bool name="config_showOnePlusDozeGestures">true</bool>
 </resources>
