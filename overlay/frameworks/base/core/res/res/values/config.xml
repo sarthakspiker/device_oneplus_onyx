@@ -343,8 +343,11 @@
     <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|LTE|HSPAP|GSM|TD_SCDMA|WCDMA|LTE_CA</string>
 
     <!-- Bool whether to show notification slider in Universe -->
-    <bool name="config_showNotificationSlider">false</bool>
+    <bool name="config_showNotificationSlider">true</bool>
 
     <!-- Bool whether to show Gestures in Universe -->
     <bool name="config_showOnePlusDozeGestures">true</bool>
+    
+	<!-- Bool whether to show OnePlus ScreenOff Gestures in Universe -->
+    <bool name="config_showScreenoffGesture">true</bool>    
 </resources>
