@@ -236,9 +236,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wcnss_service
 
-# telephony-ext
-PRODUCT_PACKAGES += telephony-ext
-PRODUCT_BOOT_JARS += telephony-ext
-
 # Inherit from oppo-common
 #$(call inherit-product, device/oppo/common/common.mk)
